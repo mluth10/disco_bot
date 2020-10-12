@@ -2,17 +2,14 @@ import discord
 from discord.ext import commands
 import random
 
-# run on Heroku (eventually)
-# test server id = 712908102902743043
-# cool server id = 653438528637894676
 
 insults = [' is super not cool', ' is bad at Civ', ' listens to Ariana Grande']
 dict_insult = {}
 basic_cmd = ['hello', 'add', 'add command', 'insult', 'add to insults', 'add_to_insults', 'bully', 'remove_insult',
              'remove', 'remove_from_insults', 'list', 'list_insults', 'rj', 'sexiest_nba_player', 'info', 'subtract', 'thursday', 'help']
-bad = ['sucks', 'is so bad', 'is stupid', 'listens to Ariana Grande']
+bad = ['listens to Ariana Grande']
 my_dict = dict()
-token = 'NzEyOTA4NTk4MTUzNTc2NDY4.XscByA.G48huhOus45J1LmQkefaZ09yBP8'
+token = "your own (int) here"
 # client = discord.Client()
 client = commands.Bot(command_prefix='$')
 
